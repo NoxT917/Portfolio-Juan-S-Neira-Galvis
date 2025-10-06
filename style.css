@@ -368,3 +368,69 @@ section{
     background-color: var(--main-color);
     width: 50px;
   }
+  /* Services Section */
+
+  .heading{
+    text-align: center;
+    font-size: 7rem;
+    margin: 5rem 0;
+
+  }
+  .skill{
+    background-color: var(--bg-color);
+    color: black;
+  }
+  .skill h2{
+    
+    color: var(--text-color);
+  }
+  .skill-container{
+    display:  grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    align-items: center;
+    gap: 2.5rem;
+  }
+  .skill-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--main-color);
+    height: 600px;
+    border-radius: 3rem;
+    cursor: pointer;
+    border: 5px solid transparent;
+    transition: 0.4s ease-in-out;
+  }
+
+  .skill-box:hover{
+    background: var(--second-bg-color);
+    color: var(--main-color);
+    border: 5px solid var(--main-color);
+    transform: scale(1.03);
+  }
+
+  .skill-info{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem;
+  }
+
+  .skill-info h4{
+    font-size: 4rem;
+    margin: 2rem 0;
+    font-weight: 800;
+  }
+
+  .skill-info p{
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 1.7;
+  }
+
+  .skill-info i{
+    font-size: 8rem;
+
+  }

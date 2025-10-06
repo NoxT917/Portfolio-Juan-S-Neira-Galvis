@@ -98,7 +98,7 @@ span{
 
 section{
   min-height: 100vh;
-  padding: 10rem 15%;
+  padding: 15rem 15%;
 }
 
 /* Home Section */
@@ -112,11 +112,11 @@ section{
 .home-content{
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
-  text-align: right;
+  align-items: flex-start;
+  text-align: left;
 }
 .home-content h1{
-  font-size: 8rem;
+  font-size: 7.5rem;
   font-weight: 700;
   margin-top: 1.5 rem;
   line-height:1;
@@ -126,9 +126,10 @@ section{
   font-size: 4rem;
 }
 .home-content p{
-  font-size: 2rem;
+  font-size: 1.7rem;
   font-weight: 500;
   line-height: 1.8;
+  text-align: left;
 }
 .home-img img{
   width: 32vw;
@@ -180,13 +181,13 @@ section{
   box-shadow: 0 0 25px var(--main-color),
               0 0 50px var(--main-color);
 }
-.btn-group a:nth-of-type(2){
+.btn-group a:nth-of-type(1){
   background-color: black;
   color: var(--main-color);
   border: 2px solid var(--main-color);
   box-shadow: 0 0 25px transparent;
 }
-.btn-group a:nth-of-type(2):hover{
+.btn-group a:nth-of-type(1):hover{
   box-shadow: 0 0 25px var(--main-color);
   background-color: var(--main-color);
   color: black;
@@ -209,7 +210,7 @@ section{
   background-color: var(--bg-color);
   position: absolute;
   width: calc(100% + 8px);
-  height: 100%;
+  height: 110%;
   border-left: 3px solid var(--bg-color);
   right: -8px;
   animation: cursor 0.6s infinite, typing 20s steps(14) infinite;
